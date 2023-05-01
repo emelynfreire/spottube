@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Spottube</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<h1><span class="youtube">Youtube</span><span class="spotify">Spotify</span></h1>
+	</header>
+	<main>
+		<form>
+			<label for="youtube_playlist_id">ID da playlist do Youtube:</label>
+			<input type="text" id="youtube_playlist_id" name="youtube_playlist_id">
+			<label for="playlist_name">Nome da playlist do Spotify:</label>
+			<input type="text" id="playlist_name" name="playlist_name">
+			<label for="youtube_api_key">Chave da API do Youtube:</label>
+			<input type="text" id="youtube_api_key" name="youtube_api_key">
+			<label for="spotify_client_id">ID do cliente do Spotify:</label>
+			<input type="text" id="spotify_client_id" name="spotify_client_id">
+			<label for="spotify_client_secret">Chave secreta do cliente do Spotify:</label>
+			<input type="text" id="spotify_client_secret" name="spotify_client_secret">
+			<label for="redirect_uri">URI de redirecionamento do Spotify:</label>
+			<input type="text" id="redirect_uri" name="redirect_uri">
+			<button id="create_playlist_button">Criar Playlist</button>
+		</form>
+	</main>
+	<script src="js/script.js"></script>
+</body>
+</html>
